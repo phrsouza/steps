@@ -33,7 +33,10 @@ export default function App() {
           <div className="numbers">
             {messages.map((message, index) => {
               return (
-                <div className={step >= index + 1 ? "active" : ""}>
+                <div
+                  key={`step-${index + 1}`}
+                  className={step >= index + 1 ? "active" : ""}
+                >
                   {index + 1}
                 </div>
               );
