@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "./components/Button";
 
 const messages = [
   "Learn React ⚛️",
@@ -58,16 +59,5 @@ export default function App() {
         </div>
       )}
     </>
-  );
-}
-
-function Button({ textColor, bgColor, onClick, children }) {
-  return (
-    <button
-      style={{ backgroundColor: bgColor, color: textColor }}
-      onClick={onClick}
-    >
-      {children}
-    </button>
   );
 }
