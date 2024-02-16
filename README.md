@@ -43,6 +43,8 @@ localhost:3000
 
 This project is deployed to https://steps-mjfljafcc-pedro-souzas-projects-608e0ba6.vercel.app/ whenever the default branch is updated.
 
+![image](https://github.com/phrsouza/steps/assets/2446492/d0b76488-33d7-496b-aa0d-5ed84b21a4b1)
+
 ## License
 
 This project is licensed under [MIT License](https://opensource.org/licenses/MIT).
